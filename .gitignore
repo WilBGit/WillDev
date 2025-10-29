@@ -1,0 +1,67 @@
+# === PYTHON / FASTAPI ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pid
+*.bak
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Local database
+database.db
+
+# Ollama cache
+.ollama/
+
+# Celery / Redis
+celerybeat-schedule
+celerybeat.pid
+
+# === ENVIRONMENT & CONFIG ===
+.env
+.env.*
+*.env.local
+*.env.production
+*.env.development
+*.secret
+secrets.json
+
+# === NODE / NEXT.JS FRONTEND ===
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.turbo/
+frontend/.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === MAC OS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+
+# === EDITOR FILES ===
+.vscode/
+.idea/
+*.swp
+*.swo
